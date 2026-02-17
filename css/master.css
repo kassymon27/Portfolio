@@ -1,0 +1,38 @@
+body{
+  padding: 0px;
+  margin: 0px;
+  background-color: #331D2C;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+header{
+  display: flex;
+  justify-content: center;
+  height: 5rem;
+  align-items: center;
+}
+.navigation{
+  height: clamp(2.75rem, 10vh, 3.25rem);
+  width: clamp(16.5rem, 60vw, 25rem);
+  background-color: #3F2E3E;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 1.1rem;
+  border-radius: 10px;
+}
+.textButtons{
+  width: clamp(5rem, 20vw, 8.3rem);
+  display: inline-flex;
+  justify-content: space-evenly;
+}
+.chatButton{
+  width: clamp(4rem, 20vw, 6rem);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #A78295;
+  border-radius: 10px;
+  height: 70%;
+}
