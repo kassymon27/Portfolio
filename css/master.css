@@ -9,30 +9,41 @@ body{
 header{
   display: flex;
   justify-content: center;
-  height: 5rem;
+  height: 10rem;
   align-items: center;
 }
 .navigation{
-  height: clamp(2.75rem, 10vh, 3.25rem);
-  width: clamp(16.5rem, 60vw, 25rem);
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 6rem;
+  font-style: normal;
+  height: clamp(4.48rem, 10vh, 7.8rem);
+  width: clamp(26.875rem, 65vw, 47rem);
   background-color: #3F2E3E;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
-  font-size: 1.1rem;
-  border-radius: 10px;
+  gap: 1.4rem;
+  font-size: 2.1rem;
+  border-radius: 16px;
+}
+
+.navigation img{
+  width: clamp(4.48rem, 10vh, 7.8rem);
 }
 .textButtons{
-  width: clamp(5rem, 20vw, 8.3rem);
+  width: clamp(9rem, 40%, 15rem);
   display: inline-flex;
   justify-content: space-evenly;
+  color: #A78295;
 }
 .chatButton{
-  width: clamp(4rem, 20vw, 6rem);
+  color: #3F2E3E;
+  width: clamp(8rem, 20vw, 12rem);
   display: inline-flex;
   justify-content: center;
   align-items: center;
   background-color: #A78295;
   border-radius: 10px;
-  height: 70%;
+  height: 65%;
 }
