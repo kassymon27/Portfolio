@@ -5,6 +5,10 @@ body{
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 header{
   display: flex;
@@ -13,10 +17,7 @@ header{
   align-items: center;
 }
 .navigation{
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 6rem;
-  font-style: normal;
+  font-weight: 300;
   height: clamp(4.48rem, 10vh, 7.8rem);
   width: clamp(26.875rem, 65vw, 47rem);
   background-color: #3F2E3E;
@@ -46,4 +47,24 @@ header{
   background-color: #A78295;
   border-radius: 10px;
   height: 65%;
+}
+
+.titleText{
+  width: 90vw;
+  font-weight: 400;
+  font-size: 8rem;
+  color: #A78295;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.description{
+  box-sizing: border-box;
+  border: solid 1mm black;
+  width: 90vw;
+  padding: 0 3rem 0;
+  font-weight: 300;
+  font-size: 2.2rem;
+  text-align: center;
+  color: #A78295;
 }
