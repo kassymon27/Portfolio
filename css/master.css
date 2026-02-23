@@ -59,12 +59,36 @@ header{
 }
 
 .description{
-  box-sizing: border-box;
-  border: solid 1mm black;
   width: 90vw;
   padding: 0 3rem 0;
   font-weight: 300;
   font-size: 2.2rem;
   text-align: center;
   color: #A78295;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.backgroundForImage{
+  width: 90vw;
+  aspect-ratio: 9/8;
+  margin-top: 5rem;
+  background-color: #450F2B;
+  position: relative;
+  border-radius: 30px;
+}
+
+.containerImage{
+  border-radius: inherit;
+  position: absolute;
+  inset: 0;
+  opacity: 0.5;
+  background-image:url("../img/background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  width: 90vw;
+  aspect-ratio: 9/8;
 }
